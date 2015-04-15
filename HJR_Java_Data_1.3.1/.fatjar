@@ -1,0 +1,14 @@
+#Fat Jar Configuration File
+#Wed Sep 24 21:23:03 CST 2014
+onejar.license.required=true
+manifest.classpath=
+manifest.removesigners=true
+onejar.checkbox=false
+jarname=tj_sdk_unity_1.0.0.jar
+manifest.mergeall=true
+manifest.mainclass=
+manifest.file=<createnew>
+jarname.isextern=false
+onejar.expand=
+excludes=<po|android-gwsdk-statistic-test>~com/~example/;<po|android-gwsdk-statistic-test>~com/~gameworks/~gameplatform/~R$dimen.class;<po|android-gwsdk-statistic-test>~com/~gameworks/~gameplatform/~R$drawable.class;<po|android-gwsdk-statistic-test>~com/~gameworks/~gameplatform/~R$layout.class;<po|android-gwsdk-statistic-test>~com/~gameworks/~gameplatform/~R$string.class;<po|android-gwsdk-statistic-test>~com/~gameworks/~gameplatform/~R$style.class;<po|android-gwsdk-statistic-test>~com/~gameworks/~gameplatform/~R.class;<jar|android-gwsdk-statistic.jar>;<jar|classes.jar>
+includes=
