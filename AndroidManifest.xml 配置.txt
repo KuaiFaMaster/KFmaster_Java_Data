@@ -1,21 +1,22 @@
-åœ¨<application>èŠ‚ç‚¹åŒçº§çš„èŠ‚ç‚¹ä¸‹é¢ï¼Œæ·»åŠ permissioné…ç½®ï¼š
+ÔÚ<application>½ÚµãÍ¬¼¶µÄ½ÚµãÏÂÃæ£¬Ìí¼ÓpermissionÅäÖÃ£º
 	<uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
     <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+<uses-permission android:name="android.permission.PACKAGE_USAGE_STATS" />
 
-åœ¨<application>èŠ‚ç‚¹é‡Œé¢æ·»åŠ  meta-data é…ç½®ç¤ºä¾‹ï¼ˆåƒä¸‡ä¸è¦é…ç½®åˆ°<application>èŠ‚ç‚¹å¤–é¢äº†ï¼‰ï¼š
+ÔÚ<application>½ÚµãÀïÃæÌí¼Ó meta-data ÅäÖÃÊ¾Àý£¨Ç§Íò²»ÒªÅäÖÃµ½<application>½ÚµãÍâÃæÁË£©£º
         
-	<!-- æ¸¸æˆå¯†é’¥ -->
-		<!-- æ¸¸æˆå¯†é’¥ -->
-	 <meta-data android:name="HJR_GAMEKEY" android:value="ç”³è¯·çš„gamekey" />
+	<!-- ÓÎÏ·ÃÜÔ¿ -->
+		<!-- ÓÎÏ·ÃÜÔ¿ -->
+	 <meta-data android:name="HJR_GAMEKEY" android:value="ÉêÇëµÄgamekey" />
 	 
-	<!-- æ¸ é“å·   æ³¨æ„æ ¼å¼å¿…é¡»ä¸º\+ç©ºæ ¼+æ¸ é“å·(flashAIRçš„æ¸¸æˆé™¤å¤–) -->
-        <meta-data android:name="HJR_CHANNEL"  android:value="\ è‡ªå®šä¹‰æ¸ é“å·" />
+	<!-- ÇþµÀºÅ   ×¢Òâ¸ñÊ½±ØÐëÎª\+¿Õ¸ñ+ÇþµÀºÅ(flashAIRµÄÓÎÏ·³ýÍâ) -->
+        <meta-data android:name="HJR_CHANNEL"  android:value="\ ×Ô¶¨ÒåÇþµÀºÅ" />
 		
-	<!--æµ‹è¯•ä¸ºtrue æ­£å¼ä¸Šçº¿ä¸ºfalse -->
-    <meta-data android:name="HJR_DATA_URL_DEBUG"  android:value="true" />
+	<!--²âÊÔÎªtrue ÕýÊ½ÉÏÏßÎªfalse -->
+    <meta-data android:name="HJR_DEBUG"  android:value="true" />
 	
 
 	
