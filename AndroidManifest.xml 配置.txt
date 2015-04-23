@@ -4,19 +4,18 @@
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
     <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
-<uses-permission android:name="android.permission.PACKAGE_USAGE_STATS" />
+    <uses-permission android:name="android.permission.PACKAGE_USAGE_STATS" />
 
 在<application>节点里面添加 meta-data 配置示例（千万不要配置到<application>节点外面了）：
         
 	<!-- 游戏密钥 -->
-		<!-- 游戏密钥 -->
-	 <meta-data android:name="HJR_GAMEKEY" android:value="申请的gamekey" />
+	<meta-data android:name="HJR_GAMEKEY" android:value="申请的gamekey" />
 	 
 	<!-- 渠道号   注意格式必须为\+空格+渠道号(flashAIR的游戏除外) -->
         <meta-data android:name="HJR_CHANNEL"  android:value="\ 自定义渠道号" />
 		
 	<!--测试为true 正式上线为false -->
-    <meta-data android:name="HJR_DEBUG"  android:value="true" />
+    <meta-data android:name="HJR_DATA_URL_DEBUG"  android:value="true" />
 	
 
 	
